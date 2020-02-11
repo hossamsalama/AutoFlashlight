@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimaryDark">
+
+        <TextView
+            android:id="@+id/intensity_value"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:maxLength="20"
+            android:padding="10dp"
+            android:shadowColor="#d2fafb"
+            android:shadowDx="1"
+            android:shadowDy="1"
+            android:text="@string/zero"
+            app:fontFamily="@font/digitalregular"
+            android:textAlignment="center"
+            android:textColor="#d2fafb"
+            android:textSize="40sp"
+            android:textStyle="bold" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="300dp"
+        android:layout_height="260dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/circle_shape"
+        android:foregroundGravity="center_vertical|center_horizontal"
+        android:max="13000"
+        android:progressDrawable="@drawable/circuler_progress_bar"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="134dp" />
+
+
+</RelativeLayout>

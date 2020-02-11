@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <rotate xmlns:android="http://schemas.android.com/apk/res/android" android:fromDegrees="270" android:toDegrees="270">
+            <shape
+
+                android:shape="ring" android:thickness="15dp" android:useLevel="true"
+
+                >
+
+                <gradient android:angle="0" android:centerColor="#f4fe53" android:endColor="#fc0000" android:gradientRadius="5" android:startColor="#00fd36" android:type="sweep" android:useLevel="false">
+
+                </gradient>
+
+            </shape>
+        </rotate>
+
+    </item>
+</selector>

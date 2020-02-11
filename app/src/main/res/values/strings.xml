@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Auto Flashlight</string>
+    <string name="zero">0</string>
+    <string name="decrease">Decrease the number inside text view</string>
+    <string name="power">main power button to turn flash on or off</string>
+    <string name="increase">Increase the number inside text view</string>
+    <string name="autoLight_description">The Flash will automatically turn on when the device detect low light level</string>
+    <string name="light_intensity">Light Intensity</string>
+    <string name="remove_ads">Remove Ads</string>
+    <string name="rate_app">Rate App</string>
+    <string name="about_app">Auto Flashlight V 2.0</string>
+    <string name="settings">Settings Icon</string>
+    <string name="sos">SOS</string>
+    <string name="ad_id_interstitial">ca-app-pub-8888502007911950/8414615174</string>
+    <string name="ad_id_banner">ca-app-pub-8888502007911950/8338648115</string>
+</resources>
